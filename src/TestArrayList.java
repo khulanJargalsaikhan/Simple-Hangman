@@ -23,9 +23,9 @@ public class TestArrayList {
 
         int searchIndex = Collections.binarySearch(temperatureList, 33.9);
         if(searchIndex >=0){
-            System.out.println("Temperature found." + searchIndex);
+            System.out.println("Temperature found " + searchIndex);
         }else{
-            System.out.println("Temperature not found." + searchIndex);
+            System.out.println("Temperature not found " + searchIndex);
         }
 
 
